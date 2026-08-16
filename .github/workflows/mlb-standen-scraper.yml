@@ -1,0 +1,26 @@
+name: MLB Standen Scraper
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Python instellen
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Standen scrapen
+        run: python mlb_scraper.py
+      - name: JSON bestand committen
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add mlb_standen.json
+          git diff --staged --quiet || git commit -m "MLB standen bijgewerkt: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
