@@ -27,7 +27,7 @@ JSON_FILE = "mlb_stats.json"
 PAGINA_GROOTTE = 100
 
 BATTING_HEADERS = [
-    {"column": "name",     "label": "Speler"},
+    {"column": "name",     "label": "Player"},
     {"column": "teamcode", "label": "Team"},
     {"column": "g",        "label": "G",    "tooltip": "Games Played"},
     {"column": "ab",       "label": "AB",   "tooltip": "At Bats"},
@@ -47,7 +47,7 @@ BATTING_HEADERS = [
 ]
 
 PITCHING_HEADERS = [
-    {"column": "name",     "label": "Speler"},
+    {"column": "name",     "label": "Player"},
     {"column": "teamcode", "label": "Team"},
     {"column": "w",        "label": "W",    "tooltip": "Wins"},
     {"column": "l",        "label": "L",    "tooltip": "Losses"},
@@ -66,7 +66,7 @@ PITCHING_HEADERS = [
 ]
 
 FIELDING_HEADERS = [
-    {"column": "name",     "label": "Speler"},
+    {"column": "name",     "label": "Player"},
     {"column": "teamcode", "label": "Team"},
     {"column": "positie",  "label": "Pos"},
     {"column": "g",        "label": "G",    "tooltip": "Games Played"},
