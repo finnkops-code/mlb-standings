@@ -1,28 +1,18 @@
-"""
-MLB Scraper — uitslagen + programma in één run, één JSON.
-Uitslagen: de wedstrijden van gisteren (Amerikaanse baseball-dag, Eastern Time)
-Programma: de wedstrijden van vandaag
-
-Gebruikt de officiële MLB Stats API (statsapi.mlb.com) in plaats van
-browser-scraping: mlb.com/schedule wordt hier zelf ook door gevoed, en de API
-geeft dezelfde data terug als nette JSON. Geen Playwright/Chromium nodig.
-"""
 import json
 import urllib.request
-import datetime as dt
-from datetime import timezone
-from zoneinfo import ZoneInfo
+from datetime import datetime, timezone
 
-SCHEDULE_API = (
-    "https://statsapi.mlb.com/api/v1/schedule"
-    "?sportId=1&date={datum}&hydrate=team,linescore,probablePitcher"
+BRON_URL = "https://www.mlb.com/standings/"
+
+STANDINGS_API = (
+    "https://statsapi.mlb.com/api/v1/standings"
+    "?leagueId=103,104&season={season}&standingsTypes=regularSeason"
 )
 TEAMS_API = "https://statsapi.mlb.com/api/v1/teams?sportId=1&activeStatus=Y"
-JSON_FILE = "mlb_schedule.json"
+DIVISIONS_API = "https://statsapi.mlb.com/api/v1/divisions?sportId=1"
 
-# MLB organiseert de speeldag op Eastern Time (ET) — dezelfde referentie die
-# officialDate/gameDate in de API gebruiken.
-ET = ZoneInfo("America/New_York")
+# Weergavevolgorde van de divisies (Oost, Centraal, West per league).
+DIVISIE_VOLGORDE = [201, 202, 200, 204, 205, 203]
 
 
 def fetch_json(url):
@@ -34,139 +24,89 @@ def fetch_json(url):
         return json.loads(resp.read().decode("utf-8"))
 
 
-def fetch_afkortingen():
-    """Haalt de officiële MLB-afkortingen per team op (dynamisch, geen vaste lijst)."""
+def fetch_teams():
     data = fetch_json(TEAMS_API)
-    afkortingen = {}
+    teams = {}
     for team in data.get("teams", []):
-        afkortingen[team["name"]] = team.get("abbreviation", team["name"][:3].upper())
-    return afkortingen
+        teams[team["id"]] = {
+            "naam": team.get("name", "-"),
+            "afkorting": team.get("abbreviation", "-"),
+        }
+    return teams
 
 
-def afkorting(team, afkortingen):
-    if team in afkortingen:
-        return afkortingen[team]
-    for naam, afk in afkortingen.items():
-        if naam.lower() in team.lower() or team.lower() in naam.lower():
-            return afk
-    return team[:3].upper()
-
-
-def et_tijd(game_date_iso):
-    """Zet een UTC ISO-timestamp (gameDate) om naar HH:MM Eastern Time."""
-    if not game_date_iso:
-        return None
-    ts = dt.datetime.strptime(game_date_iso, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-    return ts.astimezone(ET).strftime("%H:%M")
+def fetch_divisienamen():
+    data = fetch_json(DIVISIONS_API)
+    namen = {}
+    for divisie in data.get("divisions", []):
+        namen[divisie["id"]] = divisie.get("name", "-")
+    return namen
 
 
 def logo_url(team_id):
-    if not team_id:
-        return None
     return f"https://www.mlbstatic.com/team-logos/{team_id}.svg"
 
 
-def parse_score(waarde):
-    if waarde is None:
-        return None
-    try:
-        return int(waarde)
-    except (TypeError, ValueError):
-        return None
+def parse_standings(standings_data, teams, divisienamen):
+    result = {}
+    volgorde_index = {div_id: i for i, div_id in enumerate(DIVISIE_VOLGORDE)}
 
+    for record in standings_data.get("records", []):
+        divisie_id = record.get("division", {}).get("id")
+        divisie_naam = divisienamen.get(divisie_id, f"Divisie {divisie_id}")
 
-def haal_wedstrijden(datum, afkortingen):
-    url = SCHEDULE_API.format(datum=datum)
-    data = fetch_json(url)
-    wedstrijden = []
-    for dag in data.get("dates", []):
-        wedstrijden.extend(dag.get("games", []))
-    return wedstrijden
+        rijen = []
+        for team_record in record.get("teamRecords", []):
+            team_id = team_record.get("team", {}).get("id")
+            team_info = teams.get(team_id, {"naam": team_record.get("team", {}).get("name", "-")})
+            rij = {
+                "positie": team_record.get("divisionRank", "-"),
+                "team": team_info["naam"],
+                "logo_url": logo_url(team_id) if team_id else "",
+                "w": str(team_record.get("wins", "-")),
+                "l": str(team_record.get("losses", "-")),
+                "pct": team_record.get("winningPercentage", "-"),
+                "gb": team_record.get("gamesBack", "-"),
+            }
+            rijen.append(rij)
 
+        rijen.sort(key=lambda r: int(r["positie"]) if r["positie"].isdigit() else 99)
+        result[divisie_naam] = {
+            "divisie_id": divisie_id,
+            "volgorde": volgorde_index.get(divisie_id, 99),
+            "rijen": rijen,
+        }
 
-def bouw_uitslag(game, afkortingen):
-    teams = game.get("teams", {})
-    thuis = teams.get("home", {})
-    uit = teams.get("away", {})
-    thuis_naam = thuis.get("team", {}).get("name", "-")
-    uit_naam = uit.get("team", {}).get("name", "-")
-    status = game.get("status", {})
-    abstract_state = status.get("abstractGameState", "-")
-    return {
-        "datum":       game.get("officialDate"),
-        "tijdstip":    et_tijd(game.get("gameDate")),
-        "start_utc":   game.get("gameDate"),
-        "thuis":       thuis_naam,
-        "thuis_afk":   afkorting(thuis_naam, afkortingen),
-        "thuis_logo":  logo_url(thuis.get("team", {}).get("id")),
-        "uit":         uit_naam,
-        "uit_afk":     afkorting(uit_naam, afkortingen),
-        "uit_logo":    logo_url(uit.get("team", {}).get("id")),
-        "score_thuis": parse_score(thuis.get("score")),
-        "score_uit":   parse_score(uit.get("score")),
-        "locatie":     game.get("venue", {}).get("name"),
-        "status":      status.get("detailedState", "-"),
-        "gespeeld":    abstract_state == "Final",
-        "live":        abstract_state == "Live",
-    }
-
-
-def bouw_programma_item(game, afkortingen):
-    teams = game.get("teams", {})
-    thuis = teams.get("home", {})
-    uit = teams.get("away", {})
-    thuis_naam = thuis.get("team", {}).get("name", "-")
-    uit_naam = uit.get("team", {}).get("name", "-")
-    return {
-        "datum":        game.get("officialDate"),
-        "tijdstip":     et_tijd(game.get("gameDate")),
-        "start_utc":    game.get("gameDate"),
-        "thuis":        thuis_naam,
-        "thuis_afk":    afkorting(thuis_naam, afkortingen),
-        "thuis_logo":   logo_url(thuis.get("team", {}).get("id")),
-        "uit":          uit_naam,
-        "uit_afk":      afkorting(uit_naam, afkortingen),
-        "uit_logo":     logo_url(uit.get("team", {}).get("id")),
-        "werper_thuis": thuis.get("probablePitcher", {}).get("fullName"),
-        "werper_uit":   uit.get("probablePitcher", {}).get("fullName"),
-        "locatie":      game.get("venue", {}).get("name"),
-        "status":       game.get("status", {}).get("detailedState", "-"),
-    }
+    # Sorteer de divisies zelf in de gewenste weergavevolgorde en maak er weer
+    # een simpel dict van (naam -> rijen), net als bij de DBL-scraper.
+    gesorteerd = sorted(result.items(), key=lambda kv: kv[1]["volgorde"])
+    return {naam: info["rijen"] for naam, info in gesorteerd}
 
 
 def main():
-    nu_et = dt.datetime.now(ET)
-    vandaag = nu_et.date()
-    gisteren = vandaag - dt.timedelta(days=1)
-    print(f"Nu (ET): {nu_et.strftime('%Y-%m-%d %H:%M')} — vandaag={vandaag}, gisteren={gisteren}")
+    season = datetime.now(timezone.utc).year
+    print(f"Ophalen van teams en divisies...")
+    teams = fetch_teams()
+    divisienamen = fetch_divisienamen()
 
-    print("Teamafkortingen ophalen...")
-    afkortingen = fetch_afkortingen()
+    print(f"Ophalen van standen voor seizoen {season}...")
+    standings_data = fetch_json(STANDINGS_API.format(season=season))
 
-    print(f"\nUitslagen ophalen voor {gisteren}...")
-    ruwe_uitslagen = haal_wedstrijden(str(gisteren), afkortingen)
-    uitslagen = [
-        bouw_uitslag(g, afkortingen) for g in ruwe_uitslagen
-        if g.get("teams", {}).get("home", {}).get("score") is not None
-        or g.get("teams", {}).get("away", {}).get("score") is not None
-    ]
-    uitslagen.sort(key=lambda w: (w["datum"] or "", w["tijdstip"] or ""))
-    print(f"→ {len(uitslagen)} uitslagen")
-
-    print(f"\nProgramma ophalen voor {vandaag}...")
-    ruwe_programma = haal_wedstrijden(str(vandaag), afkortingen)
-    programma = [bouw_programma_item(g, afkortingen) for g in ruwe_programma]
-    programma.sort(key=lambda w: (w["datum"] or "", w["tijdstip"] or ""))
-    print(f"→ {len(programma)} programma wedstrijden")
+    standen = parse_standings(standings_data, teams, divisienamen)
+    print(f"Gevonden divisies: {list(standen.keys())}")
+    for divisie, rijen in standen.items():
+        print(f"\n{divisie}:")
+        for r in rijen:
+            print(f"  {r['positie']}. {r['team']} | W:{r['w']} L:{r['l']} PCT:{r['pct']} GB:{r['gb']}")
 
     output = {
-        "bijgewerkt": dt.datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "uitslagen":  uitslagen,
-        "programma":  programma,
+        "bijgewerkt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "bron": BRON_URL,
+        "standen": standen,
     }
-    with open(JSON_FILE, "w", encoding="utf-8") as f:
+    with open("mlb_standen.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    print(f"\n{JSON_FILE}: {len(uitslagen)} uitslagen, {len(programma)} programma")
+    print("\nmlb_standen.json opgeslagen")
 
 
 if __name__ == "__main__":
