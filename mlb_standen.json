@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-08-29T19:05:41Z",
+  "bijgewerkt": "2026-08-29T22:12:33Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -17,18 +17,18 @@
         "team": "New York Yankees",
         "logo_url": "https://www.mlbstatic.com/team-logos/147.svg",
         "w": "76",
-        "l": "58",
-        "pct": ".567",
-        "gb": "4.0"
+        "l": "59",
+        "pct": ".563",
+        "gb": "4.5"
       },
       {
         "positie": "3",
         "team": "Boston Red Sox",
         "logo_url": "https://www.mlbstatic.com/team-logos/111.svg",
-        "w": "73",
+        "w": "74",
         "l": "61",
-        "pct": ".545",
-        "gb": "7.0"
+        "pct": ".548",
+        "gb": "6.5"
       },
       {
         "positie": "4",
@@ -54,9 +54,9 @@
         "positie": "1",
         "team": "Chicago White Sox",
         "logo_url": "https://www.mlbstatic.com/team-logos/145.svg",
-        "w": "71",
+        "w": "72",
         "l": "63",
-        "pct": ".530",
+        "pct": ".533",
         "gb": "-"
       },
       {
@@ -66,24 +66,24 @@
         "w": "68",
         "l": "67",
         "pct": ".504",
-        "gb": "3.5"
+        "gb": "4.0"
       },
       {
         "positie": "3",
         "team": "Minnesota Twins",
         "logo_url": "https://www.mlbstatic.com/team-logos/142.svg",
         "w": "64",
-        "l": "71",
-        "pct": ".474",
-        "gb": "7.5"
+        "l": "72",
+        "pct": ".471",
+        "gb": "8.5"
       },
       {
         "positie": "4",
         "team": "Detroit Tigers",
         "logo_url": "https://www.mlbstatic.com/team-logos/116.svg",
-        "w": "62",
+        "w": "63",
         "l": "72",
-        "pct": ".463",
+        "pct": ".467",
         "gb": "9.0"
       },
       {
@@ -93,7 +93,7 @@
         "w": "61",
         "l": "75",
         "pct": ".449",
-        "gb": "11.0"
+        "gb": "11.5"
       }
     ],
     "American League West": [
@@ -204,37 +204,37 @@
         "positie": "2",
         "team": "Chicago Cubs",
         "logo_url": "https://www.mlbstatic.com/team-logos/112.svg",
-        "w": "76",
+        "w": "77",
         "l": "59",
-        "pct": ".563",
-        "gb": "8.0"
+        "pct": ".566",
+        "gb": "7.5"
       },
       {
         "positie": "3",
         "team": "St. Louis Cardinals",
         "logo_url": "https://www.mlbstatic.com/team-logos/138.svg",
         "w": "68",
-        "l": "68",
-        "pct": ".500",
-        "gb": "16.5"
+        "l": "69",
+        "pct": ".496",
+        "gb": "17.0"
       },
       {
         "positie": "4",
         "team": "Pittsburgh Pirates",
         "logo_url": "https://www.mlbstatic.com/team-logos/134.svg",
-        "w": "65",
+        "w": "66",
         "l": "71",
-        "pct": ".478",
-        "gb": "19.5"
+        "pct": ".482",
+        "gb": "19.0"
       },
       {
         "positie": "5",
         "team": "Cincinnati Reds",
         "logo_url": "https://www.mlbstatic.com/team-logos/113.svg",
         "w": "64",
-        "l": "71",
-        "pct": ".474",
-        "gb": "20.0"
+        "l": "72",
+        "pct": ".471",
+        "gb": "20.5"
       }
     ],
     "National League West": [
@@ -243,8 +243,8 @@
         "team": "Los Angeles Dodgers",
         "logo_url": "https://www.mlbstatic.com/team-logos/119.svg",
         "w": "81",
-        "l": "54",
-        "pct": ".600",
+        "l": "55",
+        "pct": ".596",
         "gb": "-"
       },
       {
@@ -254,7 +254,7 @@
         "w": "72",
         "l": "63",
         "pct": ".533",
-        "gb": "9.0"
+        "gb": "8.5"
       },
       {
         "positie": "3",
@@ -263,7 +263,7 @@
         "w": "72",
         "l": "64",
         "pct": ".529",
-        "gb": "9.5"
+        "gb": "9.0"
       },
       {
         "positie": "4",
@@ -272,7 +272,7 @@
         "w": "55",
         "l": "80",
         "pct": ".407",
-        "gb": "26.0"
+        "gb": "25.5"
       },
       {
         "positie": "5",
@@ -281,7 +281,7 @@
         "w": "52",
         "l": "83",
         "pct": ".385",
-        "gb": "29.0"
+        "gb": "28.5"
       }
     ]
   }
