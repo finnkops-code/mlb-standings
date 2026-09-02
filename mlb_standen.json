@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-02T21:31:13Z",
+  "bijgewerkt": "2026-09-02T23:46:57Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -26,18 +26,18 @@
         "team": "Boston Red Sox",
         "logo_url": "https://www.mlbstatic.com/team-logos/111.svg",
         "w": "75",
-        "l": "64",
-        "pct": ".540",
-        "gb": "8.5"
+        "l": "65",
+        "pct": ".536",
+        "gb": "9.0"
       },
       {
         "positie": "4",
         "team": "Baltimore Orioles",
         "logo_url": "https://www.mlbstatic.com/team-logos/110.svg",
         "w": "69",
-        "l": "70",
-        "pct": ".496",
-        "gb": "14.5"
+        "l": "71",
+        "pct": ".493",
+        "gb": "15.0"
       },
       {
         "positie": "5",
@@ -119,10 +119,10 @@
         "positie": "3",
         "team": "Seattle Mariners",
         "logo_url": "https://www.mlbstatic.com/team-logos/136.svg",
-        "w": "65",
+        "w": "66",
         "l": "74",
-        "pct": ".468",
-        "gb": "5.0"
+        "pct": ".471",
+        "gb": "4.5"
       },
       {
         "positie": "4",
@@ -158,9 +158,9 @@
         "team": "Philadelphia Phillies",
         "logo_url": "https://www.mlbstatic.com/team-logos/143.svg",
         "w": "79",
-        "l": "60",
-        "pct": ".568",
-        "gb": "3.5"
+        "l": "61",
+        "pct": ".564",
+        "gb": "4.0"
       },
       {
         "positie": "3",
@@ -251,10 +251,10 @@
         "positie": "2",
         "team": "Arizona Diamondbacks",
         "logo_url": "https://www.mlbstatic.com/team-logos/109.svg",
-        "w": "73",
+        "w": "74",
         "l": "67",
-        "pct": ".521",
-        "gb": "10.0"
+        "pct": ".525",
+        "gb": "9.5"
       },
       {
         "positie": "3",
@@ -278,10 +278,10 @@
         "positie": "5",
         "team": "Colorado Rockies",
         "logo_url": "https://www.mlbstatic.com/team-logos/115.svg",
-        "w": "53",
+        "w": "54",
         "l": "86",
-        "pct": ".381",
-        "gb": "29.5"
+        "pct": ".386",
+        "gb": "29.0"
       }
     ]
   }
