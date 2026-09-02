@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-02T18:21:45Z",
+  "bijgewerkt": "2026-09-02T21:31:13Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -111,9 +111,9 @@
         "team": "Texas Rangers",
         "logo_url": "https://www.mlbstatic.com/team-logos/140.svg",
         "w": "69",
-        "l": "70",
-        "pct": ".496",
-        "gb": "1.0"
+        "l": "71",
+        "pct": ".493",
+        "gb": "1.5"
       },
       {
         "positie": "3",
@@ -128,10 +128,10 @@
         "positie": "4",
         "team": "Athletics",
         "logo_url": "https://www.mlbstatic.com/team-logos/133.svg",
-        "w": "53",
+        "w": "54",
         "l": "86",
-        "pct": ".381",
-        "gb": "17.0"
+        "pct": ".386",
+        "gb": "16.5"
       },
       {
         "positie": "5",
@@ -148,9 +148,9 @@
         "positie": "1",
         "team": "Atlanta Braves",
         "logo_url": "https://www.mlbstatic.com/team-logos/144.svg",
-        "w": "82",
+        "w": "83",
         "l": "57",
-        "pct": ".590",
+        "pct": ".593",
         "gb": "-"
       },
       {
@@ -160,7 +160,7 @@
         "w": "79",
         "l": "60",
         "pct": ".568",
-        "gb": "3.0"
+        "gb": "3.5"
       },
       {
         "positie": "3",
@@ -169,16 +169,16 @@
         "w": "70",
         "l": "69",
         "pct": ".504",
-        "gb": "12.0"
+        "gb": "12.5"
       },
       {
         "positie": "4",
         "team": "Washington Nationals",
         "logo_url": "https://www.mlbstatic.com/team-logos/120.svg",
         "w": "67",
-        "l": "74",
-        "pct": ".475",
-        "gb": "16.0"
+        "l": "75",
+        "pct": ".472",
+        "gb": "17.0"
       },
       {
         "positie": "5",
@@ -187,7 +187,7 @@
         "w": "62",
         "l": "77",
         "pct": ".446",
-        "gb": "20.0"
+        "gb": "20.5"
       }
     ],
     "National League Central": [
@@ -231,10 +231,10 @@
         "positie": "5",
         "team": "Cincinnati Reds",
         "logo_url": "https://www.mlbstatic.com/team-logos/113.svg",
-        "w": "66",
+        "w": "67",
         "l": "73",
-        "pct": ".475",
-        "gb": "20.0"
+        "pct": ".479",
+        "gb": "19.5"
       }
     ],
     "National League West": [
@@ -249,17 +249,17 @@
       },
       {
         "positie": "2",
-        "team": "San Diego Padres",
-        "logo_url": "https://www.mlbstatic.com/team-logos/135.svg",
+        "team": "Arizona Diamondbacks",
+        "logo_url": "https://www.mlbstatic.com/team-logos/109.svg",
         "w": "73",
-        "l": "66",
-        "pct": ".525",
-        "gb": "9.5"
+        "l": "67",
+        "pct": ".521",
+        "gb": "10.0"
       },
       {
         "positie": "3",
-        "team": "Arizona Diamondbacks",
-        "logo_url": "https://www.mlbstatic.com/team-logos/109.svg",
+        "team": "San Diego Padres",
+        "logo_url": "https://www.mlbstatic.com/team-logos/135.svg",
         "w": "73",
         "l": "67",
         "pct": ".521",
