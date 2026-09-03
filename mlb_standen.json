@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-03T19:35:01Z",
+  "bijgewerkt": "2026-09-03T22:09:45Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -34,10 +34,10 @@
         "positie": "4",
         "team": "Toronto Blue Jays",
         "logo_url": "https://www.mlbstatic.com/team-logos/141.svg",
-        "w": "69",
+        "w": "70",
         "l": "71",
-        "pct": ".493",
-        "gb": "14.5"
+        "pct": ".496",
+        "gb": "14.0"
       },
       {
         "positie": "5",
@@ -55,8 +55,8 @@
         "team": "Chicago White Sox",
         "logo_url": "https://www.mlbstatic.com/team-logos/145.svg",
         "w": "73",
-        "l": "66",
-        "pct": ".525",
+        "l": "67",
+        "pct": ".521",
         "gb": "-"
       },
       {
@@ -64,8 +64,8 @@
         "team": "Cleveland Guardians",
         "logo_url": "https://www.mlbstatic.com/team-logos/114.svg",
         "w": "70",
-        "l": "69",
-        "pct": ".504",
+        "l": "70",
+        "pct": ".500",
         "gb": "3.0"
       },
       {
@@ -75,7 +75,7 @@
         "w": "67",
         "l": "73",
         "pct": ".479",
-        "gb": "6.5"
+        "gb": "6.0"
       },
       {
         "positie": "4",
@@ -84,7 +84,7 @@
         "w": "64",
         "l": "75",
         "pct": ".460",
-        "gb": "9.0"
+        "gb": "8.5"
       },
       {
         "positie": "5",
@@ -93,7 +93,7 @@
         "w": "62",
         "l": "78",
         "pct": ".443",
-        "gb": "11.5"
+        "gb": "11.0"
       }
     ],
     "American League West": [
@@ -101,9 +101,9 @@
         "positie": "1",
         "team": "Houston Astros",
         "logo_url": "https://www.mlbstatic.com/team-logos/117.svg",
-        "w": "71",
+        "w": "72",
         "l": "69",
-        "pct": ".507",
+        "pct": ".511",
         "gb": "-"
       },
       {
@@ -113,7 +113,7 @@
         "w": "69",
         "l": "71",
         "pct": ".493",
-        "gb": "2.0"
+        "gb": "2.5"
       },
       {
         "positie": "3",
@@ -122,7 +122,7 @@
         "w": "66",
         "l": "74",
         "pct": ".471",
-        "gb": "5.0"
+        "gb": "5.5"
       },
       {
         "positie": "4",
@@ -131,7 +131,7 @@
         "w": "54",
         "l": "86",
         "pct": ".386",
-        "gb": "17.0"
+        "gb": "17.5"
       },
       {
         "positie": "5",
@@ -140,7 +140,7 @@
         "w": "53",
         "l": "87",
         "pct": ".379",
-        "gb": "18.0"
+        "gb": "18.5"
       }
     ],
     "National League East": [
