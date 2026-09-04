@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-04T20:40:36Z",
+  "bijgewerkt": "2026-09-04T22:44:00Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -63,10 +63,10 @@
         "positie": "2",
         "team": "Cleveland Guardians",
         "logo_url": "https://www.mlbstatic.com/team-logos/114.svg",
-        "w": "70",
+        "w": "71",
         "l": "70",
-        "pct": ".500",
-        "gb": "3.0"
+        "pct": ".504",
+        "gb": "2.5"
       },
       {
         "positie": "3",
@@ -82,9 +82,9 @@
         "team": "Detroit Tigers",
         "logo_url": "https://www.mlbstatic.com/team-logos/116.svg",
         "w": "64",
-        "l": "75",
-        "pct": ".460",
-        "gb": "8.5"
+        "l": "76",
+        "pct": ".457",
+        "gb": "9.0"
       },
       {
         "positie": "5",
