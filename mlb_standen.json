@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-09T19:37:49Z",
+  "bijgewerkt": "2026-09-09T22:10:35Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -35,9 +35,9 @@
         "team": "Toronto Blue Jays",
         "logo_url": "https://www.mlbstatic.com/team-logos/141.svg",
         "w": "73",
-        "l": "73",
-        "pct": ".500",
-        "gb": "14.0"
+        "l": "74",
+        "pct": ".497",
+        "gb": "14.5"
       },
       {
         "positie": "5",
@@ -73,18 +73,18 @@
         "team": "Minnesota Twins",
         "logo_url": "https://www.mlbstatic.com/team-logos/142.svg",
         "w": "69",
-        "l": "76",
-        "pct": ".476",
-        "gb": "6.5"
+        "l": "77",
+        "pct": ".473",
+        "gb": "7.0"
       },
       {
         "positie": "4",
         "team": "Detroit Tigers",
         "logo_url": "https://www.mlbstatic.com/team-logos/116.svg",
-        "w": "66",
+        "w": "67",
         "l": "79",
-        "pct": ".455",
-        "gb": "9.5"
+        "pct": ".459",
+        "gb": "9.0"
       },
       {
         "positie": "5",
@@ -128,10 +128,10 @@
         "positie": "4",
         "team": "Athletics",
         "logo_url": "https://www.mlbstatic.com/team-logos/133.svg",
-        "w": "58",
+        "w": "59",
         "l": "88",
-        "pct": ".397",
-        "gb": "16.5"
+        "pct": ".401",
+        "gb": "16.0"
       },
       {
         "positie": "5",
