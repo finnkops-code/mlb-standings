@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-09T22:10:35Z",
+  "bijgewerkt": "2026-09-10T00:45:42Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -111,18 +111,18 @@
         "team": "Texas Rangers",
         "logo_url": "https://www.mlbstatic.com/team-logos/140.svg",
         "w": "72",
-        "l": "73",
-        "pct": ".497",
-        "gb": "2.0"
+        "l": "74",
+        "pct": ".493",
+        "gb": "2.5"
       },
       {
         "positie": "3",
         "team": "Seattle Mariners",
         "logo_url": "https://www.mlbstatic.com/team-logos/136.svg",
-        "w": "67",
+        "w": "68",
         "l": "78",
-        "pct": ".462",
-        "gb": "7.0"
+        "pct": ".466",
+        "gb": "6.5"
       },
       {
         "positie": "4",
@@ -185,9 +185,9 @@
         "team": "Washington Nationals",
         "logo_url": "https://www.mlbstatic.com/team-logos/120.svg",
         "w": "67",
-        "l": "80",
-        "pct": ".456",
-        "gb": "19.0"
+        "l": "81",
+        "pct": ".453",
+        "gb": "19.5"
       }
     ],
     "National League Central": [
@@ -223,9 +223,9 @@
         "team": "St. Louis Cardinals",
         "logo_url": "https://www.mlbstatic.com/team-logos/138.svg",
         "w": "72",
-        "l": "74",
-        "pct": ".493",
-        "gb": "18.0"
+        "l": "75",
+        "pct": ".490",
+        "gb": "18.5"
       },
       {
         "positie": "5",
@@ -260,19 +260,19 @@
         "positie": "3",
         "team": "San Diego Padres",
         "logo_url": "https://www.mlbstatic.com/team-logos/135.svg",
-        "w": "77",
+        "w": "78",
         "l": "68",
-        "pct": ".531",
-        "gb": "11.0"
+        "pct": ".534",
+        "gb": "10.5"
       },
       {
         "positie": "4",
         "team": "San Francisco Giants",
         "logo_url": "https://www.mlbstatic.com/team-logos/137.svg",
-        "w": "61",
+        "w": "62",
         "l": "85",
-        "pct": ".418",
-        "gb": "27.5"
+        "pct": ".422",
+        "gb": "27.0"
       },
       {
         "positie": "5",
