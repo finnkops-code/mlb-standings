@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-10T20:46:23Z",
+  "bijgewerkt": "2026-09-10T22:53:45Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -111,18 +111,18 @@
         "team": "Texas Rangers",
         "logo_url": "https://www.mlbstatic.com/team-logos/140.svg",
         "w": "72",
-        "l": "74",
-        "pct": ".493",
-        "gb": "2.5"
+        "l": "75",
+        "pct": ".490",
+        "gb": "3.0"
       },
       {
         "positie": "3",
         "team": "Seattle Mariners",
         "logo_url": "https://www.mlbstatic.com/team-logos/136.svg",
-        "w": "68",
+        "w": "69",
         "l": "78",
-        "pct": ".466",
-        "gb": "6.5"
+        "pct": ".469",
+        "gb": "6.0"
       },
       {
         "positie": "4",
