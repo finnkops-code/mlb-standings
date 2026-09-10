@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-10T18:00:01Z",
+  "bijgewerkt": "2026-09-10T20:46:23Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -8,8 +8,8 @@
         "team": "Tampa Bay Rays",
         "logo_url": "https://www.mlbstatic.com/team-logos/139.svg",
         "w": "87",
-        "l": "58",
-        "pct": ".600",
+        "l": "59",
+        "pct": ".596",
         "gb": "-"
       },
       {
@@ -19,7 +19,7 @@
         "w": "83",
         "l": "62",
         "pct": ".572",
-        "gb": "4.0"
+        "gb": "3.5"
       },
       {
         "positie": "3",
@@ -28,7 +28,7 @@
         "w": "80",
         "l": "67",
         "pct": ".544",
-        "gb": "8.0"
+        "gb": "7.5"
       },
       {
         "positie": "4",
@@ -37,7 +37,7 @@
         "w": "73",
         "l": "74",
         "pct": ".497",
-        "gb": "15.0"
+        "gb": "14.5"
       },
       {
         "positie": "5",
@@ -46,7 +46,7 @@
         "w": "71",
         "l": "76",
         "pct": ".483",
-        "gb": "17.0"
+        "gb": "16.5"
       }
     ],
     "American League Central": [
@@ -101,9 +101,9 @@
         "positie": "1",
         "team": "Houston Astros",
         "logo_url": "https://www.mlbstatic.com/team-logos/117.svg",
-        "w": "74",
+        "w": "75",
         "l": "72",
-        "pct": ".507",
+        "pct": ".510",
         "gb": "-"
       },
       {
@@ -113,7 +113,7 @@
         "w": "72",
         "l": "74",
         "pct": ".493",
-        "gb": "2.0"
+        "gb": "2.5"
       },
       {
         "positie": "3",
@@ -122,7 +122,7 @@
         "w": "68",
         "l": "78",
         "pct": ".466",
-        "gb": "6.0"
+        "gb": "6.5"
       },
       {
         "positie": "4",
@@ -131,7 +131,7 @@
         "w": "59",
         "l": "88",
         "pct": ".401",
-        "gb": "15.5"
+        "gb": "16.0"
       },
       {
         "positie": "5",
@@ -140,7 +140,7 @@
         "w": "56",
         "l": "90",
         "pct": ".384",
-        "gb": "18.0"
+        "gb": "18.5"
       }
     ],
     "National League East": [
@@ -148,9 +148,9 @@
         "positie": "1",
         "team": "Atlanta Braves",
         "logo_url": "https://www.mlbstatic.com/team-logos/144.svg",
-        "w": "85",
+        "w": "86",
         "l": "61",
-        "pct": ".582",
+        "pct": ".585",
         "gb": "-"
       },
       {
@@ -158,9 +158,9 @@
         "team": "Philadelphia Phillies",
         "logo_url": "https://www.mlbstatic.com/team-logos/143.svg",
         "w": "82",
-        "l": "64",
-        "pct": ".562",
-        "gb": "3.0"
+        "l": "65",
+        "pct": ".558",
+        "gb": "4.0"
       },
       {
         "positie": "3",
@@ -169,7 +169,7 @@
         "w": "72",
         "l": "75",
         "pct": ".490",
-        "gb": "13.5"
+        "gb": "14.0"
       },
       {
         "positie": "4",
@@ -178,7 +178,7 @@
         "w": "68",
         "l": "78",
         "pct": ".466",
-        "gb": "17.0"
+        "gb": "17.5"
       },
       {
         "positie": "5",
@@ -187,7 +187,7 @@
         "w": "67",
         "l": "81",
         "pct": ".453",
-        "gb": "19.0"
+        "gb": "19.5"
       }
     ],
     "National League Central": [
