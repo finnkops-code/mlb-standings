@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-11T18:06:57Z",
+  "bijgewerkt": "2026-09-11T21:31:11Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -204,19 +204,19 @@
         "positie": "2",
         "team": "Chicago Cubs",
         "logo_url": "https://www.mlbstatic.com/team-logos/112.svg",
-        "w": "81",
+        "w": "82",
         "l": "66",
-        "pct": ".551",
-        "gb": "10.0"
+        "pct": ".554",
+        "gb": "9.5"
       },
       {
         "positie": "3",
         "team": "Pittsburgh Pirates",
         "logo_url": "https://www.mlbstatic.com/team-logos/134.svg",
         "w": "74",
-        "l": "73",
-        "pct": ".503",
-        "gb": "17.0"
+        "l": "74",
+        "pct": ".500",
+        "gb": "17.5"
       },
       {
         "positie": "4",
