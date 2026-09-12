@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-12T20:03:49Z",
+  "bijgewerkt": "2026-09-12T22:46:45Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -17,36 +17,36 @@
         "team": "New York Yankees",
         "logo_url": "https://www.mlbstatic.com/team-logos/147.svg",
         "w": "85",
-        "l": "62",
-        "pct": ".578",
-        "gb": "3.0"
+        "l": "63",
+        "pct": ".574",
+        "gb": "3.5"
       },
       {
         "positie": "3",
         "team": "Boston Red Sox",
         "logo_url": "https://www.mlbstatic.com/team-logos/111.svg",
-        "w": "80",
+        "w": "81",
         "l": "68",
-        "pct": ".541",
-        "gb": "8.5"
+        "pct": ".544",
+        "gb": "8.0"
       },
       {
         "positie": "4",
         "team": "Toronto Blue Jays",
         "logo_url": "https://www.mlbstatic.com/team-logos/141.svg",
-        "w": "73",
+        "w": "74",
         "l": "75",
-        "pct": ".493",
-        "gb": "15.5"
+        "pct": ".497",
+        "gb": "15.0"
       },
       {
         "positie": "5",
         "team": "Baltimore Orioles",
         "logo_url": "https://www.mlbstatic.com/team-logos/110.svg",
         "w": "72",
-        "l": "76",
-        "pct": ".486",
-        "gb": "16.5"
+        "l": "77",
+        "pct": ".483",
+        "gb": "17.0"
       }
     ],
     "American League Central": [
@@ -81,19 +81,19 @@
         "positie": "4",
         "team": "Detroit Tigers",
         "logo_url": "https://www.mlbstatic.com/team-logos/116.svg",
-        "w": "68",
+        "w": "69",
         "l": "79",
-        "pct": ".463",
-        "gb": "7.0"
+        "pct": ".466",
+        "gb": "6.5"
       },
       {
         "positie": "5",
         "team": "Kansas City Royals",
         "logo_url": "https://www.mlbstatic.com/team-logos/118.svg",
         "w": "66",
-        "l": "82",
-        "pct": ".446",
-        "gb": "9.5"
+        "l": "83",
+        "pct": ".443",
+        "gb": "10.0"
       }
     ],
     "American League West": [
@@ -175,10 +175,10 @@
         "positie": "4",
         "team": "New York Mets",
         "logo_url": "https://www.mlbstatic.com/team-logos/121.svg",
-        "w": "68",
+        "w": "69",
         "l": "79",
-        "pct": ".463",
-        "gb": "18.5"
+        "pct": ".466",
+        "gb": "18.0"
       },
       {
         "positie": "5",
@@ -204,19 +204,19 @@
         "positie": "2",
         "team": "Chicago Cubs",
         "logo_url": "https://www.mlbstatic.com/team-logos/112.svg",
-        "w": "82",
+        "w": "83",
         "l": "66",
-        "pct": ".554",
-        "gb": "10.0"
+        "pct": ".557",
+        "gb": "9.5"
       },
       {
         "positie": "3",
         "team": "Pittsburgh Pirates",
         "logo_url": "https://www.mlbstatic.com/team-logos/134.svg",
         "w": "74",
-        "l": "74",
-        "pct": ".500",
-        "gb": "18.0"
+        "l": "75",
+        "pct": ".497",
+        "gb": "18.5"
       },
       {
         "positie": "4",
@@ -279,9 +279,9 @@
         "team": "Colorado Rockies",
         "logo_url": "https://www.mlbstatic.com/team-logos/115.svg",
         "w": "55",
-        "l": "92",
-        "pct": ".374",
-        "gb": "35.0"
+        "l": "93",
+        "pct": ".372",
+        "gb": "35.5"
       }
     ]
   }
