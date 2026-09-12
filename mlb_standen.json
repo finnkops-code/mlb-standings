@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-11T23:49:03Z",
+  "bijgewerkt": "2026-09-12T02:46:34Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -7,18 +7,18 @@
         "positie": "1",
         "team": "Tampa Bay Rays",
         "logo_url": "https://www.mlbstatic.com/team-logos/139.svg",
-        "w": "87",
+        "w": "88",
         "l": "59",
-        "pct": ".596",
+        "pct": ".599",
         "gb": "-"
       },
       {
         "positie": "2",
         "team": "New York Yankees",
         "logo_url": "https://www.mlbstatic.com/team-logos/147.svg",
-        "w": "84",
+        "w": "85",
         "l": "62",
-        "pct": ".575",
+        "pct": ".578",
         "gb": "3.0"
       },
       {
@@ -26,26 +26,26 @@
         "team": "Boston Red Sox",
         "logo_url": "https://www.mlbstatic.com/team-logos/111.svg",
         "w": "80",
-        "l": "67",
-        "pct": ".544",
-        "gb": "7.5"
+        "l": "68",
+        "pct": ".541",
+        "gb": "8.5"
       },
       {
         "positie": "4",
         "team": "Toronto Blue Jays",
         "logo_url": "https://www.mlbstatic.com/team-logos/141.svg",
         "w": "73",
-        "l": "74",
-        "pct": ".497",
-        "gb": "14.5"
+        "l": "75",
+        "pct": ".493",
+        "gb": "15.5"
       },
       {
         "positie": "5",
         "team": "Baltimore Orioles",
         "logo_url": "https://www.mlbstatic.com/team-logos/110.svg",
-        "w": "71",
+        "w": "72",
         "l": "76",
-        "pct": ".483",
+        "pct": ".486",
         "gb": "16.5"
       }
     ],
@@ -81,19 +81,19 @@
         "positie": "4",
         "team": "Detroit Tigers",
         "logo_url": "https://www.mlbstatic.com/team-logos/116.svg",
-        "w": "67",
+        "w": "68",
         "l": "79",
-        "pct": ".459",
-        "gb": "8.0"
+        "pct": ".463",
+        "gb": "7.5"
       },
       {
         "positie": "5",
         "team": "Kansas City Royals",
         "logo_url": "https://www.mlbstatic.com/team-logos/118.svg",
-        "w": "65",
+        "w": "66",
         "l": "82",
-        "pct": ".442",
-        "gb": "10.5"
+        "pct": ".446",
+        "gb": "10.0"
       }
     ],
     "American League West": [
@@ -102,8 +102,8 @@
         "team": "Houston Astros",
         "logo_url": "https://www.mlbstatic.com/team-logos/117.svg",
         "w": "75",
-        "l": "72",
-        "pct": ".510",
+        "l": "73",
+        "pct": ".507",
         "gb": "-"
       },
       {
@@ -113,7 +113,7 @@
         "w": "72",
         "l": "75",
         "pct": ".490",
-        "gb": "3.0"
+        "gb": "2.5"
       },
       {
         "positie": "3",
@@ -122,7 +122,7 @@
         "w": "69",
         "l": "78",
         "pct": ".469",
-        "gb": "6.0"
+        "gb": "5.5"
       },
       {
         "positie": "4",
@@ -131,15 +131,15 @@
         "w": "59",
         "l": "88",
         "pct": ".401",
-        "gb": "16.0"
+        "gb": "15.5"
       },
       {
         "positie": "5",
         "team": "Los Angeles Angels",
         "logo_url": "https://www.mlbstatic.com/team-logos/108.svg",
         "w": "56",
-        "l": "90",
-        "pct": ".384",
+        "l": "91",
+        "pct": ".381",
         "gb": "18.5"
       }
     ],
@@ -167,27 +167,27 @@
         "team": "Miami Marlins",
         "logo_url": "https://www.mlbstatic.com/team-logos/146.svg",
         "w": "72",
-        "l": "75",
-        "pct": ".490",
-        "gb": "14.0"
+        "l": "76",
+        "pct": ".486",
+        "gb": "14.5"
       },
       {
         "positie": "4",
         "team": "New York Mets",
         "logo_url": "https://www.mlbstatic.com/team-logos/121.svg",
         "w": "68",
-        "l": "78",
-        "pct": ".466",
-        "gb": "17.5"
+        "l": "79",
+        "pct": ".463",
+        "gb": "18.0"
       },
       {
         "positie": "5",
         "team": "Washington Nationals",
         "logo_url": "https://www.mlbstatic.com/team-logos/120.svg",
-        "w": "67",
+        "w": "68",
         "l": "81",
-        "pct": ".453",
-        "gb": "19.5"
+        "pct": ".456",
+        "gb": "19.0"
       }
     ],
     "National League Central": [
@@ -195,9 +195,9 @@
         "positie": "1",
         "team": "Milwaukee Brewers",
         "logo_url": "https://www.mlbstatic.com/team-logos/158.svg",
-        "w": "91",
+        "w": "92",
         "l": "56",
-        "pct": ".619",
+        "pct": ".622",
         "gb": "-"
       },
       {
@@ -207,7 +207,7 @@
         "w": "82",
         "l": "66",
         "pct": ".554",
-        "gb": "9.5"
+        "gb": "10.0"
       },
       {
         "positie": "3",
@@ -216,7 +216,7 @@
         "w": "74",
         "l": "74",
         "pct": ".500",
-        "gb": "17.5"
+        "gb": "18.0"
       },
       {
         "positie": "4",
@@ -225,16 +225,16 @@
         "w": "72",
         "l": "75",
         "pct": ".490",
-        "gb": "19.0"
+        "gb": "19.5"
       },
       {
         "positie": "5",
         "team": "Cincinnati Reds",
         "logo_url": "https://www.mlbstatic.com/team-logos/113.svg",
         "w": "69",
-        "l": "77",
-        "pct": ".473",
-        "gb": "21.5"
+        "l": "78",
+        "pct": ".469",
+        "gb": "22.5"
       }
     ],
     "National League West": [
@@ -242,9 +242,9 @@
         "positie": "1",
         "team": "Los Angeles Dodgers",
         "logo_url": "https://www.mlbstatic.com/team-logos/119.svg",
-        "w": "89",
+        "w": "90",
         "l": "57",
-        "pct": ".610",
+        "pct": ".612",
         "gb": "-"
       },
       {
@@ -254,7 +254,7 @@
         "w": "78",
         "l": "68",
         "pct": ".534",
-        "gb": "11.0"
+        "gb": "11.5"
       },
       {
         "positie": "3",
@@ -263,7 +263,7 @@
         "w": "78",
         "l": "69",
         "pct": ".531",
-        "gb": "11.5"
+        "gb": "12.0"
       },
       {
         "positie": "4",
@@ -272,16 +272,16 @@
         "w": "62",
         "l": "85",
         "pct": ".422",
-        "gb": "27.5"
+        "gb": "28.0"
       },
       {
         "positie": "5",
         "team": "Colorado Rockies",
         "logo_url": "https://www.mlbstatic.com/team-logos/115.svg",
         "w": "55",
-        "l": "91",
-        "pct": ".377",
-        "gb": "34.0"
+        "l": "92",
+        "pct": ".374",
+        "gb": "35.0"
       }
     ]
   }
