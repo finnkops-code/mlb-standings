@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-13T17:52:14Z",
+  "bijgewerkt": "2026-09-13T20:10:06Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -81,10 +81,10 @@
         "positie": "4",
         "team": "Detroit Tigers",
         "logo_url": "https://www.mlbstatic.com/team-logos/116.svg",
-        "w": "69",
+        "w": "70",
         "l": "79",
-        "pct": ".466",
-        "gb": "7.0"
+        "pct": ".470",
+        "gb": "6.5"
       },
       {
         "positie": "5",
@@ -279,9 +279,9 @@
         "team": "Colorado Rockies",
         "logo_url": "https://www.mlbstatic.com/team-logos/115.svg",
         "w": "55",
-        "l": "93",
-        "pct": ".372",
-        "gb": "35.0"
+        "l": "94",
+        "pct": ".369",
+        "gb": "35.5"
       }
     ]
   }
