@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-14T00:37:30Z",
+  "bijgewerkt": "2026-09-14T05:40:44Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -251,10 +251,10 @@
         "positie": "2",
         "team": "San Diego Padres",
         "logo_url": "https://www.mlbstatic.com/team-logos/135.svg",
-        "w": "80",
+        "w": "81",
         "l": "68",
-        "pct": ".541",
-        "gb": "9.5"
+        "pct": ".544",
+        "gb": "9.0"
       },
       {
         "positie": "3",
@@ -270,9 +270,9 @@
         "team": "San Francisco Giants",
         "logo_url": "https://www.mlbstatic.com/team-logos/137.svg",
         "w": "62",
-        "l": "87",
-        "pct": ".416",
-        "gb": "28.0"
+        "l": "88",
+        "pct": ".413",
+        "gb": "28.5"
       },
       {
         "positie": "5",
