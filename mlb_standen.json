@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-15T22:39:17Z",
+  "bijgewerkt": "2026-09-16T00:59:19Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -7,9 +7,9 @@
         "positie": "1",
         "team": "Tampa Bay Rays",
         "logo_url": "https://www.mlbstatic.com/team-logos/139.svg",
-        "w": "90",
+        "w": "91",
         "l": "59",
-        "pct": ".604",
+        "pct": ".607",
         "gb": "-"
       },
       {
@@ -19,7 +19,7 @@
         "w": "87",
         "l": "63",
         "pct": ".580",
-        "gb": "3.5"
+        "gb": "4.0"
       },
       {
         "positie": "3",
@@ -28,7 +28,7 @@
         "w": "82",
         "l": "68",
         "pct": ".547",
-        "gb": "8.5"
+        "gb": "9.0"
       },
       {
         "positie": "4",
@@ -37,7 +37,7 @@
         "w": "75",
         "l": "76",
         "pct": ".497",
-        "gb": "16.0"
+        "gb": "16.5"
       },
       {
         "positie": "5",
@@ -46,7 +46,7 @@
         "w": "73",
         "l": "78",
         "pct": ".483",
-        "gb": "18.0"
+        "gb": "18.5"
       }
     ],
     "American League Central": [
@@ -129,9 +129,9 @@
         "team": "Athletics",
         "logo_url": "https://www.mlbstatic.com/team-logos/133.svg",
         "w": "61",
-        "l": "89",
-        "pct": ".407",
-        "gb": "14.0"
+        "l": "90",
+        "pct": ".404",
+        "gb": "14.5"
       },
       {
         "positie": "5",
