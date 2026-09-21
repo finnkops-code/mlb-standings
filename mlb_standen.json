@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-20T22:54:07Z",
+  "bijgewerkt": "2026-09-21T00:46:35Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -17,9 +17,9 @@
         "team": "New York Yankees",
         "logo_url": "https://www.mlbstatic.com/team-logos/147.svg",
         "w": "89",
-        "l": "65",
-        "pct": ".578",
-        "gb": "5.5"
+        "l": "66",
+        "pct": ".574",
+        "gb": "6.0"
       },
       {
         "positie": "3",
@@ -260,10 +260,10 @@
         "positie": "3",
         "team": "Arizona Diamondbacks",
         "logo_url": "https://www.mlbstatic.com/team-logos/109.svg",
-        "w": "81",
+        "w": "82",
         "l": "74",
-        "pct": ".523",
-        "gb": "14.5"
+        "pct": ".526",
+        "gb": "14.0"
       },
       {
         "positie": "4",
