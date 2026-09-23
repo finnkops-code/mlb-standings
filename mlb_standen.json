@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-23T18:10:38Z",
+  "bijgewerkt": "2026-09-23T21:58:04Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -35,18 +35,18 @@
         "team": "Toronto Blue Jays",
         "logo_url": "https://www.mlbstatic.com/team-logos/141.svg",
         "w": "77",
-        "l": "80",
-        "pct": ".490",
-        "gb": "19.0"
+        "l": "81",
+        "pct": ".487",
+        "gb": "19.5"
       },
       {
         "positie": "5",
         "team": "Baltimore Orioles",
         "logo_url": "https://www.mlbstatic.com/team-logos/110.svg",
-        "w": "76",
+        "w": "77",
         "l": "81",
-        "pct": ".484",
-        "gb": "20.0"
+        "pct": ".487",
+        "gb": "19.5"
       }
     ],
     "American League Central": [
@@ -82,9 +82,9 @@
         "team": "Detroit Tigers",
         "logo_url": "https://www.mlbstatic.com/team-logos/116.svg",
         "w": "74",
-        "l": "84",
-        "pct": ".468",
-        "gb": "8.5"
+        "l": "85",
+        "pct": ".465",
+        "gb": "9.0"
       },
       {
         "positie": "5",
@@ -175,10 +175,10 @@
         "positie": "4",
         "team": "Washington Nationals",
         "logo_url": "https://www.mlbstatic.com/team-logos/120.svg",
-        "w": "74",
+        "w": "75",
         "l": "84",
-        "pct": ".468",
-        "gb": "18.5"
+        "pct": ".472",
+        "gb": "18.0"
       },
       {
         "positie": "5",
