@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-23T21:58:04Z",
+  "bijgewerkt": "2026-09-24T00:17:57Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -72,10 +72,10 @@
         "positie": "3",
         "team": "Minnesota Twins",
         "logo_url": "https://www.mlbstatic.com/team-logos/142.svg",
-        "w": "74",
+        "w": "75",
         "l": "84",
-        "pct": ".468",
-        "gb": "8.5"
+        "pct": ".472",
+        "gb": "8.0"
       },
       {
         "positie": "4",
@@ -270,9 +270,9 @@
         "team": "San Francisco Giants",
         "logo_url": "https://www.mlbstatic.com/team-logos/137.svg",
         "w": "65",
-        "l": "93",
-        "pct": ".411",
-        "gb": "32.5"
+        "l": "94",
+        "pct": ".409",
+        "gb": "33.0"
       },
       {
         "positie": "5",
