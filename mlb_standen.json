@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-24T15:44:37Z",
+  "bijgewerkt": "2026-09-24T19:44:28Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -213,19 +213,19 @@
         "positie": "3",
         "team": "Pittsburgh Pirates",
         "logo_url": "https://www.mlbstatic.com/team-logos/134.svg",
-        "w": "80",
+        "w": "81",
         "l": "78",
-        "pct": ".506",
-        "gb": "19.0"
+        "pct": ".509",
+        "gb": "18.5"
       },
       {
         "positie": "4",
         "team": "St. Louis Cardinals",
         "logo_url": "https://www.mlbstatic.com/team-logos/138.svg",
         "w": "77",
-        "l": "81",
-        "pct": ".487",
-        "gb": "22.0"
+        "l": "82",
+        "pct": ".484",
+        "gb": "22.5"
       },
       {
         "positie": "5",
