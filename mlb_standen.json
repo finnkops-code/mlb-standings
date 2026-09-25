@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-24T22:57:13Z",
+  "bijgewerkt": "2026-09-25T01:10:33Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -158,9 +158,9 @@
         "team": "Philadelphia Phillies",
         "logo_url": "https://www.mlbstatic.com/team-logos/143.svg",
         "w": "87",
-        "l": "71",
-        "pct": ".551",
-        "gb": "6.0"
+        "l": "72",
+        "pct": ".547",
+        "gb": "6.5"
       },
       {
         "positie": "3",
@@ -195,9 +195,9 @@
         "positie": "1",
         "team": "Milwaukee Brewers",
         "logo_url": "https://www.mlbstatic.com/team-logos/158.svg",
-        "w": "99",
+        "w": "100",
         "l": "59",
-        "pct": ".627",
+        "pct": ".629",
         "gb": "-"
       },
       {
@@ -207,7 +207,7 @@
         "w": "88",
         "l": "71",
         "pct": ".553",
-        "gb": "11.5"
+        "gb": "12.0"
       },
       {
         "positie": "3",
@@ -216,7 +216,7 @@
         "w": "81",
         "l": "78",
         "pct": ".509",
-        "gb": "18.5"
+        "gb": "19.0"
       },
       {
         "positie": "4",
@@ -225,7 +225,7 @@
         "w": "77",
         "l": "82",
         "pct": ".484",
-        "gb": "22.5"
+        "gb": "23.0"
       },
       {
         "positie": "5",
@@ -234,7 +234,7 @@
         "w": "73",
         "l": "85",
         "pct": ".462",
-        "gb": "26.0"
+        "gb": "26.5"
       }
     ],
     "National League West": [
