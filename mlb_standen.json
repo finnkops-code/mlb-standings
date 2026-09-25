@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-25T18:11:11Z",
+  "bijgewerkt": "2026-09-25T21:56:40Z",
   "bron": "https://www.mlb.com/standings/",
   "standen": {
     "American League East": [
@@ -25,10 +25,10 @@
         "positie": "3",
         "team": "Boston Red Sox",
         "logo_url": "https://www.mlbstatic.com/team-logos/111.svg",
-        "w": "85",
+        "w": "86",
         "l": "74",
-        "pct": ".535",
-        "gb": "11.0"
+        "pct": ".538",
+        "gb": "10.5"
       },
       {
         "positie": "4",
@@ -205,9 +205,9 @@
         "team": "Chicago Cubs",
         "logo_url": "https://www.mlbstatic.com/team-logos/112.svg",
         "w": "88",
-        "l": "71",
-        "pct": ".553",
-        "gb": "12.0"
+        "l": "72",
+        "pct": ".550",
+        "gb": "12.5"
       },
       {
         "positie": "3",
